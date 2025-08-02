@@ -4,7 +4,7 @@ export default {
       id: 'ShortcutExampleNotification',
       displayName: 'Shortcut Example - Notification',
       handle: () => {
-        sliprail.showNotification({
+        sliprailMain.showNotification({
           title:'Test Notification Title',
           message:'Test Notification Message'
         });
