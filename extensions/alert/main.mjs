@@ -1,7 +1,7 @@
 export default {
   shortcuts: [
     {
-      id: 'ShortcutExampleAlert',
+      id: 'Alert',
       displayName: 'Shortcut Example - Alert',
       handle: () => {
         sliprailMain.showAlert('Alert');
