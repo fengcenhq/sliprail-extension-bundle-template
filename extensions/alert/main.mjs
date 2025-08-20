@@ -1,3 +1,6 @@
+/**
+ * @type {import('@sliprail/sdk').Extension}
+ */
 export default {
   shortcuts: [
     {
