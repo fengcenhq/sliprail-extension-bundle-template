@@ -5,7 +5,7 @@ export default {
   shortcuts: [
     {
       id: 'Window',
-      displayName: 'Shortcut Example - Window',
+      displayName: 'Shortcut Example (Window) - Window',
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
