@@ -10,7 +10,7 @@ export default {
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
       handle: (context) => {
-        sliprailMain.showAlert('Alert');
+        context.showAlert('Alert');
       },
     },
     {
@@ -20,7 +20,7 @@ export default {
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
       handle: (context) => {
-        sliprailMain.showNotification({
+        context.showNotification({
           title: 'Test Notification Title',
           message: 'Test Notification Message',
         });

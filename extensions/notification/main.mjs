@@ -6,8 +6,11 @@ export default {
     {
       id: 'Notification',
       displayName: 'Shortcut Example - Notification',
-      handle: () => {
-        sliprailMain.showNotification({
+      /**
+       * @param context {import('@sliprail/sdk').ShortcutContext}
+       */
+      handle: (context) => {
+        context.showNotification({
           title: 'Test Notification Title',
           message: 'Test Notification Message',
         });

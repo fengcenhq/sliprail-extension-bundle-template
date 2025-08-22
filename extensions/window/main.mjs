@@ -10,7 +10,7 @@ export default {
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
       handle: (context) => {
-        const channel = sliprailMain.createWindowChannel();
+        const channel = context.createWindowChannel();
         channel.on('getMessage', () => {
           channel.emit('message', 'Hello from Window Shortcut!');
         });
@@ -43,7 +43,7 @@ export default {
           return;
         }
 
-        const channel = sliprailMain.createWindowChannel();
+        const channel = context.createWindowChannel();
         channel.on('getMessage', () => {
           channel.emit('message', 'Hello from Singleton Window Shortcut!');
         });
