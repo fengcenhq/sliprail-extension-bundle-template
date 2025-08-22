@@ -32,7 +32,7 @@ export default {
     },
     {
       id: 'SingletonWindow',
-      displayName: 'Shortcut Example - Singleton Window',
+      displayName: 'Shortcut Example (Window) - Singleton Window',
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
