@@ -4,16 +4,13 @@
 export default {
   shortcuts: [
     {
-      id: 'Notification',
-      displayName: 'Shortcut Example - Notification',
+      id: 'GetParameter',
+      displayName: 'Shortcut Example (Parameter) - Get Parameter',
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
       handle: (context) => {
-        context.showNotification({
-          title: 'Test Notification Title',
-          message: 'Test Notification Message',
-        });
+        context.showAlert(context.parameter);
       },
     },
   ],
