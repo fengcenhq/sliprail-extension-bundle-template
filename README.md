@@ -20,6 +20,9 @@ Click the button below to install this extension directly in Sliprail:
 1. Clone this repository
 2. Follow the [Sliprail extension documentation](https://sliprail.fengcen.io/blog/how-to-create-sliprail-extension) to customize
 
+## API Docs
+
+[https://sliprail.fengcen.io/docs/sdk/api/](https://sliprail.fengcen.io/docs/sdk/api/)
 
 ## License
 
